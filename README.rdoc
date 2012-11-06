@@ -1,0 +1,6 @@
+implementing:
+
+Devise for ready-made authentication and user management.
+RSpec for testing.
+Cucumber for Behaviour Driven Development.
+
