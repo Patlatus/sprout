@@ -19,4 +19,3 @@ describe UserMailer do
   end
 
 end
-

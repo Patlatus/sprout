@@ -1,9 +1,8 @@
 class RegistrationsController < Devise::RegistrationsController
 
-  # override #create to respond to AJAX with a partial
+  # ovverride #create to respond to AJAX with a partial
   def create
     build_resource
-
     if resource.save
       if resource.active_for_authentication?
         sign_in(resource_name, resource)
@@ -32,4 +31,3 @@ class RegistrationsController < Devise::RegistrationsController
   end
 
 end
-

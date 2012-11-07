@@ -6,7 +6,7 @@ def create_visitor
 end
 
 def find_user
-  @user ||= User.where(:email => @visitor[:email]).first
+  @user ||= User.first conditions: {:email => @visitor[:email]}
 end
 
 def create_unconfirmed_user
@@ -23,7 +23,7 @@ def create_user
 end
 
 def delete_user
-  @user ||= User.where(:email => @visitor[:email]).first
+  @user ||= User.first conditions: {:email => @visitor[:email]}
   @user.destroy unless @user.nil?
 end
 
@@ -147,15 +147,15 @@ Then /^I see an unconfirmed account message$/ do
 end
 
 Then /^I see a successful sign in message$/ do
-  page.should have_content "Thank You"
+  page.should have_content "Signed in successfully."
 end
 
 Then /^I should see a successful sign up message$/ do
-  page.should have_content "Welcome! You have signed up successfully."
+  page.should have_content "Thank You"
 end
 
 Then /^I should see an invalid email message$/ do
-  page.should have_content "Email is invalid"
+  page.should have_content "Emailis invalid"
 end
 
 Then /^I should see a missing password message$/ do

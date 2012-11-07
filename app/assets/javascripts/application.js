@@ -13,24 +13,18 @@
 //= require jquery
 //= require jquery_ujs
 //= require bootstrap
+//= require dataTables/jquery.dataTables
+//= require dataTables/jquery.dataTables.bootstrap
 //= require_tree .
-//
-
 $('document').ready(function() {
-  
-  // display validation errors for the "request invitation" form
-  if ($('.alert-error').length > 0) {
-    $("#request-invite").modal('toggle');
-  }
   
   // use AJAX to submit the "request invitation" form
   $('#invitation_button').live('click', function() {
     var email = $('form #user_email').val();
-    var opt_in;
     if($('form #user_opt_in').is(':checked'))
-        opt_in = true;
+        var opt_in = true;
     else
-        opt_in = false;
+        var opt_in = false;
     var dataString = 'user[email]='+ email + '&user[opt_in]=' + opt_in;
     $.ajax({
       type: "POST",
@@ -46,3 +40,31 @@ $('document').ready(function() {
   
 })
 
+// load social sharing scripts if the page includes a Twitter "share" button
+function loadSocial() {
+    
+    //Twitter
+    if (typeof (twttr) != 'undefined') {
+      twttr.widgets.load();
+    } else {
+      $.getScript('http://platform.twitter.com/widgets.js');
+    }
+
+    //Facebook
+    if (typeof (FB) != 'undefined') {
+      FB.init({ status: true, cookie: true, xfbml: true });
+    } else {
+      $.getScript("http://connect.facebook.net/en_US/all.js#xfbml=1", function () {
+        FB.init({ status: true, cookie: true, xfbml: true });
+      });
+    }
+
+    //Google+
+    if (typeof (gapi) != 'undefined') {
+      $(".g-plusone").each(function () {
+        gapi.plusone.render($(this).get(0));
+      });
+    } else {
+      $.getScript('https://apis.google.com/js/plusone.js');
+    }
+}
