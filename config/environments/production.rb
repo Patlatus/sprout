@@ -1,7 +1,7 @@
 Rails3DeviseRspecCucumber::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
 
-config.action_mailer.default_url_options = { :host => 'miekkamacarthur.com' }
+config.action_mailer.default_url_options = { :host => 'ntino.herokuapp.com' }
 # ActionMailer Config
 # Setup for production - deliveries, no errors raised
 config.action_mailer.delivery_method = :smtp
