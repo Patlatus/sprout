@@ -13,3 +13,4 @@ Feature: Sign up
     Scenario: User signs up with invalid email
       When I sign up with an invalid email
       Then I should see an invalid email message
+

@@ -1,9 +1,5 @@
-Rails3DeviseRspecCucumber::Application.configure do
+RailsPrelaunchSignup::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
-
-# ActionMailer Config
-config.action_mailer.default_url_options = { :host => 'example.com' }
-
 
   # The test environment is used exclusively to run your application's
   # test suite. You never need to work with it otherwise. Remember that
@@ -38,4 +34,8 @@ config.action_mailer.default_url_options = { :host => 'example.com' }
 
   # Print deprecation notices to the stderr
   config.active_support.deprecation = :stderr
+  
+  # ActionMailer Config
+  config.action_mailer.default_url_options = { :host => 'example.com' }
+
 end

@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Rails3DeviseRspecCucumber::Application.load_tasks
+RailsPrelaunchSignup::Application.load_tasks
