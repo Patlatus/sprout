@@ -30,8 +30,8 @@ $('document').ready(function() {
       data: {"user[email]": email, "user[password]": password},
       success: function(data) {
         $('#request-invite').html(data);
-        //Not using social modal so yank
-	//loadSocial();
+        //Turn social sharing on or off
+	loadSocial();
       }
     });
     return false;

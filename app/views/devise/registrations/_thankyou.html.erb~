@@ -1,1 +1,11 @@
 <div id="thanks"><h1>Thank You!</h1>Like what we're up to? Tell your colleagues!</div>
+<div id="tweet" style="display:inline-block;">
+      <a class="twitter-share-button" data-count="horizontal" data-text="A new site I've discovered" data-url="WEBSITE URL" data-via="MY TWITTeR USERNAME" data-related="" href="https://twitter.com/share" data-width="80px"></a>
+    </div>
+    <span style="display:inline-block; vertical-align:text-bottom;">
+      <div class="fb-like" data-href="WEBSTIE URL" data-layout="button_count" data-send="false" data-show-faces="false" data-width="90">
+      </div>
+    </span>
+    <div class="g-plusone" data-annotation="inline" data-href=WEBSITE URL" data-size="medium" data-width="120">
+    </div>
+

@@ -15,12 +15,9 @@
     </li>
     <% if current_user.has_role? :admin %>
       <li>
-      <%= link_to 'Admin', users_path %>
+      <%= link_to 'Users', users_path %>
       </li>
     <% end %>
-  <% else %>
-    <li>
-    <%= link_to 'Sign up', new_user_registration_path %>
-    </li>
+  
   <% end %>
 </ul>
