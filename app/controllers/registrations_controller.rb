@@ -15,7 +15,11 @@ class RegistrationsController < Devise::RegistrationsController
       end
     else
       clean_up_passwords resource
-      render :action => :new, :layout => !request.xhr?
+      #TODO - make sure this adjusted code works with sending out invites
+      render(:partial => 'email_capture', :action => :new, :layout => !request.xhr?)
+      #The original template code:
+      #render :action => :new, :layout => !request.xhr?
+      
     end
   end
 
