@@ -15,7 +15,11 @@ class RegistrationsController < Devise::RegistrationsController
       end
     else
       clean_up_passwords resource
-      render :action => :new, :layout => !request.xhr?
+      #TODO - make sure this adjusted code works with sending out invites
+      render(:partial => 'email_capture', :action => :new, :layout => !request.xhr?)
+      #The original template code:
+      #render :action => :new, :layout => !request.xhr?
+      
     end
   end
 
@@ -27,7 +31,8 @@ class RegistrationsController < Devise::RegistrationsController
 
   def after_sign_up_path_for(resource)
     # the page new users will see after sign up (after launch, when no invitation is needed)
-    redirect_to root_path
+    #redirect_to root_path
+	destroy_user_session_path, :method=>'delete'
   end
 
 end

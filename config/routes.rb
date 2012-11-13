@@ -1,10 +1,6 @@
 RailsPrelaunchSignup::Application.routes.draw do
   resources :admin do
-	 authenticated :admin do
-   		 root :to => 'home#index'
- 	 end
   end
-
   
   authenticated :user do
     root :to => 'home#index'
