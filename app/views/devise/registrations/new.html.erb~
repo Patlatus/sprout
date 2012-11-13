@@ -4,7 +4,7 @@
 	<div class="logo-wrapper"><h1>Logo goes here!</h1></div>
 	<p>And a witty tagline goes here<br>
 	This is. What you. Might do. With it.</p>
-	<div class="email_capture" style="width:350px; scale:50%; margin-left:auto; margin-right:auto; text-align:left;">	
+	<div class="email_capture" style="width:350px; margin-left:auto; margin-right:auto; text-align:left;">	
 		<div id="request-invite" class="form-inline">
 				<%= render 'email_capture' %>
 			</div>
