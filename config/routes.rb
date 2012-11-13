@@ -1,10 +1,7 @@
 RailsPrelaunchSignup::Application.routes.draw do
   resources :admin do
-	 authenticated :user do
+	 authenticated :admin do
    		 root :to => 'home#index'
- 	 end
- 	 devise_scope :user do
-   		 root :to => "devise/sessions#new"
  	 end
   end
 
