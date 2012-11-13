@@ -10,7 +10,12 @@
     <%= yield(:head) %>
   </head>
   <body class="<%= controller_name %> <%= action_name %>">
-	  <header> 
+    <header class="navbar navbar-fixed-top">
+      <nav class="navbar-inner">
+        <div class="container">
+          <%= render 'layouts/navigation' %>
+        </div>
+      </nav>
     </header>
     <div id="main" role="main">
       <div class="container">
@@ -21,12 +26,7 @@
               <%= yield %>
             </div>
           </div>
-          <footer class="navbar navbar-fixed-bottom">
-      <nav class="navbar-inner">
-        <div class="container">
-          <%= render 'layouts/footer-navigation' %>
-        </div>
-      </nav>
+          <footer>
           </footer>
         </div>
       </div> <!--! end of .container -->
