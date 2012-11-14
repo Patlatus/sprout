@@ -10,6 +10,6 @@
 	<%= f.text_field :email, :placeholder => 'Your email address...', :style => "font-family: 'macarthur_yachtingregular'; margin:auto; max-width:80%;"%>
 </div>
 <%= f.submit "Notify Me", :class => "btn btn-primary", :id => 'invitation_button', :style => "font-family: 'macarthur_yachtingregular'; margin-top:3px;" %>
-<p class="help-block" style="margin-left:-90px; margin-top:3px; line-height:10px;">No spam. Just a heads up when we're ready for you.</p>
+<p class="help-block" style="margin-top:3px; line-height:10px;">No spam. Just a heads up when we're ready for you.</p>
 
 <% end %>
