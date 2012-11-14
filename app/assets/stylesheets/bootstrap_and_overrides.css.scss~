@@ -6,6 +6,17 @@ body { padding-top: 60px;
  background: url(../assets/bg.png); }
 @import "bootstrap";
 @import "bootstrap-responsive";
+@font-face {
+    font-family: 'macarthur_yachtingregular';
+    src: font-url('macarthur_yachtin-webfont.eot');
+    src: local('macarthur_yachting'), font-url('macarthur_yachtin-webfont.eot?#iefix') format('embedded-opentype'),
+         font-url('macarthur_yachtin-webfont.woff') format('woff'),
+         font-url('macarthur_yachtin-webfont.ttf') format('truetype'),
+         font-url('macarthur_yachtin-webfont.svg#macarthur_yachtingregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 .content {
   background-color: #ddd;
@@ -38,7 +49,7 @@ body { padding-top: 60px;
   -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
   box-shadow: 0 1px 2px rgba(0,0,0,.15);
   }
-  .p {line-height:10px;}
+  
   .logo-wrapper {
 }
   h1 {
@@ -49,7 +60,7 @@ body { padding-top: 60px;
     margin-top: 0px;
   }
   .serif{
- font-weight:lighter;
+ font-family: 'macarthur_yachtingregular';
  font-size:18px;
  font-style:oblique; 
  letter-spacing:1px;
