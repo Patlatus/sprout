@@ -1,8 +1,8 @@
 <div id="welcome">
 	<div class="hero-unit">
 	<h2 class="serif">- Launching soon - </h2>
-	<div class="logo-wrapper"><h1>Logo goes here!</h1></div>
-	<p style=" font-family: 'macarthur_yachtingregular'; width:75%; margin:auto; text-align:left; font-size:14px;">The quality of a pair of trousers is evident both in the time it takes to produce them, and in the intent behind creating them. Here, we aren't interested in mass production or quick turnaround time. Rather, we hope to adapt the traditional Italian artisinal process to fit this modern marketplace.<br><br>
+	<div class="logo-wrapper" style="margin:auto; margin-top:-10px; margin-bottom:10px;"><%= link_to image_tag("logo.png", :border => 0) %></div>
+	<p style=" font-family: 'macarthur_yachtingregular'; width:75%; margin:auto; text-align:left; font-size:16px;">The quality of a pair of trousers is evident both in the time it takes to produce them, and in the intent behind creating them. Here, we aren't interested in mass production or quick turnaround time. Rather, we hope to adapt the traditional Italian artisinal process to fit this modern marketplace.<br><br>
 	For this reason, we confection our trousers one by one, step by step, 100% in-house at our design studio in Rome. It's a tedious process, but one that allows for an end result of true value: a pair of trousers like those from long ago, born from the heart and soul of an artisan.<br>  </p>
 	<div class="email_capture" style="margin-left:auto; margin-right:auto;">	
 		<div id="request-invite" class="form-inline">
