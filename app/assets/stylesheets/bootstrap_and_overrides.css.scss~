@@ -3,7 +3,11 @@ $iconSpritePath: asset-url('glyphicons-halflings.png', image);
 $iconWhiteSpritePath: asset-url('glyphicons-halflings-white.png', image);
 @import "bootstrap";
 body { padding-top: 60px; 
- //background: url(../assets/bg.png); 
+ background: url(../assets/colorbg.png);
+ background-color: #fff;
+     
+     background-size:scale;
+     background-repeat:no-repeat; 
 }
 @import "bootstrap";
 @import "bootstrap-responsive";
@@ -40,6 +44,7 @@ body { padding-top: 60px;
   .hero-unit { 
 	  margin:auto;
     height:auto;
+    max-height:1200px;
     padding:30px;
     max-width:600px;
     background-image:url('paper.png');
