@@ -15,9 +15,10 @@
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=305729149533774";
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=228969583903335";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
+
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 <script type="text/javascript">
 
@@ -41,7 +42,7 @@
               <%= render 'layouts/messages' %>
               <%= yield %>
             
-          <footer class="navbar navbar-fixed-bottom">
+          <footer class="navbar navbar-fixed-bottom" style="z-index:-10000;">
       <nav class="navbar-inner" style="background-image:none;
 background-color:transparent; border:0px;">
         <div class="container">
