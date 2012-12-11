@@ -3,7 +3,7 @@ $iconSpritePath: asset-url('glyphicons-halflings.png', image);
 $iconWhiteSpritePath: asset-url('glyphicons-halflings-white.png', image);
 @import "bootstrap";
 body { padding-top: 60px; 
-  background-image:url('colorbg.png');
+  background-image:url('colorbg.jpg');
  background-color: #fff;
      background-size:cover;
      background-size:scale;
@@ -22,7 +22,8 @@ body { padding-top: 60px;
     font-style: normal;
 
 }
-
+.navbar-inner {background-image:none;
+background-color:none;}
 .content {
   background-color: #ddd;
   padding: 20px;
@@ -47,7 +48,7 @@ body { padding-top: 60px;
     max-height:1200px;
     padding:30px;
     max-width:600px;
-    background-image:url('paper.png');
+    background-image:url('paper.jpg');
      background-color: #fff;
      background-size:cover;
      background-size:scale;

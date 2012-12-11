@@ -10,8 +10,6 @@
     <%= yield(:head) %>
   </head>
   <body class="<%= controller_name %> <%= action_name %>">
-	  <!--<header> 
-	  </header>--!>
     <div id="main" role="main">
 	    <div class="container">
             <div class="span12" style="margin-left:0;">
@@ -19,7 +17,8 @@
               <%= yield %>
             
           <footer class="navbar navbar-fixed-bottom">
-      <nav class="navbar-inner">
+      <nav class="navbar-inner" style="background-image:none;
+background-color:none;">
         <div class="container">
           <%= render 'layouts/footer-navigation' %>
         </div>
