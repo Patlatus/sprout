@@ -22,8 +22,6 @@ body { padding-top: 60px;
     font-style: normal;
 
 }
-.navbar-inner {background-image:none;
-background-color:none;}
 .content {
   background-color: #ddd;
   padding: 20px;
