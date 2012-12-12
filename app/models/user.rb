@@ -58,7 +58,7 @@ private
       mailchimp = Hominid::API.new(ENV["MAILCHIMP_API_KEY"])
       list_id = mailchimp.find_list_id_by_name "visitors"
       info = { }
-      result = mailchimp.list_subscribe(list_id, self.email, info, 'html', false, true, false, true)
+      result = mailchimp.list_subscribe(list_id, self.email, info, 'html', false, true, false, false)
       Rails.logger.info("MAILCHIMP SUBSCRIBE: result #{result.inspect} for #{self.email}")
     end
   end
