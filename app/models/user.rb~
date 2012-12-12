@@ -58,7 +58,7 @@ class User < ActiveRecord::Base
       mailchimp = Hominid::API.new(ENV["MAILCHIMP_PASSWORD"])
       list_id = mailchimp.find_list_id_by_name "visitors"
       info = { }
-      result = mailchimp.list_subscribe(list_id, self.email, info, 'html', false, true, false, true)
+      result = mailchimp.list_subscribe(list_id, self.email, info, 'html', false, true, true, false)
       Rails.logger.info("MAILCHIMP SUBSCRIBE: result #{result.inspect} for #{self.email}")
     end
   end
