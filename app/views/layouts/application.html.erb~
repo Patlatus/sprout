@@ -8,6 +8,13 @@
     <%= javascript_include_tag "application" %>
     <%= csrf_meta_tags %>
     <%= yield(:head) %>
+<meta property="og:title" content="Miekka | Handmade in Italy" />
+<meta property="og:type" content="company" />
+<meta property="og:url" content="http://www.miekkamacarthur.com" />
+<meta property="og:image" content="" />
+<meta property="og:site_name" content="Miekka" />
+<meta property="fb:admins" content="613398572" />
+    
   </head>
   <body class="<%= controller_name %> <%= action_name %>">
 <div id="fb-root"></div>
@@ -42,7 +49,7 @@
               <%= render 'layouts/messages' %>
               <%= yield %>
             
-          <footer class="navbar navbar-fixed-bottom" style="z-index:-10000;">
+          <footer class="navbar navbar-fixed-bottom">
       <nav class="navbar-inner" style="background-image:none;
 background-color:transparent; border:0px;">
         <div class="container">
