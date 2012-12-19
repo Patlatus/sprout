@@ -3,7 +3,7 @@
   <head>
    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
     <title><%= content_for?(:title) ? yield(:title) : "Miekka | Handmade in Italy" %></title>
-    <meta name="description" content="<%= content_for?(:description) ? yield(:description) : "Miekka web store" %>">
+    <meta name="description" content="<%= content_for?(:description) ? yield(:description) : "We confection our trousers one by one, step by step, 100% in-house at our design studio in Rome. It's a tedious process, but one that allows for an end result of true value: a pair of trousers like those from long ago, born from the heart and soul of an artisan." %>">
     <%= stylesheet_link_tag "application", :media => "all" %>
     <%= javascript_include_tag "application" %>
     <%= csrf_meta_tags %>
@@ -12,13 +12,10 @@
   </head>
   <body class="<%= controller_name %> <%= action_name %>">
 <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=228969583903335";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
 
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 <script type="text/javascript">

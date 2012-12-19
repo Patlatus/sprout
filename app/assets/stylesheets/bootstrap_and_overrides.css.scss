@@ -171,3 +171,47 @@ padding-top: 19px;
 padding-bottom:45px;
 }
 
+.btn .icon {
+    position: relative;
+    display: block;
+    top: 4px;
+    margin-right: 4px;
+    float: left;
+}
+.icon-facebook-white-flat{background-position:-400px -64px;}
+.fbicon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: text-top;
+    background-image: url("icons-16x16.png");
+    background-repeat: no-repeat;
+}
+
+.btn.third-party{width:158px;margin:0 5px 5px 0;} .btn.third-party .text{width:128px;}
+.btn.third-party{position:relative;height:30px;width:165px;padding:0 5px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}.btn.third-party .icon{position:relative;top:7px;margin:0 8px 0 5px;}
+.btn.third-party .text{font-family:'macarthur_yachtingregular'; position:relative;height:18px;top:6px;width:135px;line-height:18px;color:#ffffff;text-shadow:0px -1px 0px rgba(0, 0, 0, 0.2);text-align:center;}
+.btn.third-party.facebook{background-color:#395995;background-image:-moz-linear-gradient(top, #3b5b99, #37558e);background-image:-ms-linear-gradient(top, #3b5b99, #37558e);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#3b5b99), to(#37558e));background-image:-webkit-linear-gradient(top, #3b5b99, #37558e);background-image:-o-linear-gradient(top, #3b5b99, #37558e);background-image:linear-gradient(top, #3b5b99, #37558e);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.Gradient(startColorstr='#3b5b99', endColorstr='#37558e', GradientType=0);-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 1px 0 0 #e5e5e5,inset 0 1px 0 0 #627cad;-moz-box-shadow:0 1px 0 0 #e5e5e5,inset 0 1px 0 0 #627cad;box-shadow:0 1px 0 0 #e5e5e5,inset 0 1px 0 0 #627cad;border:solid 1px #2d4677;}.btn.third-party.facebook:hover{background:#3b5b99;}
+.btn.third-party.facebook:active{background-color:#395792;background-image:-moz-linear-gradient(top, #37558e, #3b5b99);background-image:-ms-linear-gradient(top, #37558e, #3b5b99);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#37558e), to(#3b5b99));background-image:-webkit-linear-gradient(top, #37558e, #3b5b99);background-image:-o-linear-gradient(top, #37558e, #3b5b99);background-image:linear-gradient(top, #37558e, #3b5b99);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.Gradient(startColorstr='#37558e', endColorstr='#3b5b99', GradientType=0);}
+.btn.third-party.facebook .text{border-left:solid 1px #2d4677;}
+.btn span{display:block;float:left;margin-right:5px;}.btn span:last-child{margin-right:0px;}
+
+/* Twitter */
+
+.btn.third-party.twitter{background-color:#00a7e6;background-image:-moz-linear-gradient(top, #00aced, #00a0dc);background-image:-ms-linear-gradient(top, #00aced, #00a0dc);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#00aced), to(#00a0dc));background-image:-webkit-linear-gradient(top, #00aced, #00a0dc);background-image:-o-linear-gradient(top, #00aced, #00a0dc);background-image:linear-gradient(top, #00aced, #00a0dc);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.Gradient(startColorstr='#00aced', endColorstr='#00a0dc', GradientType=0);-webkit-box-shadow:0 1px 0 0 #e5e5e5,inset 0 1px 0 0 #33bdf1;-moz-box-shadow:0 1px 0 0 #e5e5e5,inset 0 1px 0 0 #33bdf1;box-shadow:0 1px 0 0 #e5e5e5,inset 0 1px 0 0 #33bdf1;border:solid 1px #0088bc;}.btn.third-party.twitter:hover{background:#00aced;}
+.btn.third-party.twitter:active{background-color:#00a5e3;background-image:-moz-linear-gradient(top, #00a0dc, #00aced);background-image:-ms-linear-gradient(top, #00a0dc, #00aced);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#00a0dc), to(#00aced));background-image:-webkit-linear-gradient(top, #00a0dc, #00aced);background-image:-o-linear-gradient(top, #00a0dc, #00aced);background-image:linear-gradient(top, #00a0dc, #00aced);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.Gradient(startColorstr='#00a0dc', endColorstr='#00aced', GradientType=0);}
+.btn.third-party.twitter .text{border-left:solid 1px #0088bc;}
+.icon-twitter-white-flat {
+    background-position: -112px -192px;
+}
+.twiticon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: text-top;
+    background-image: url("icons-16x16.png");
+    background-repeat: no-repeat;
+}
+
+
+
