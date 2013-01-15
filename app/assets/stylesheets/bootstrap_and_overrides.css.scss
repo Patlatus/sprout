@@ -64,10 +64,12 @@ body { padding-top: 60px;
   
   .hero-unit { 
 	  margin:auto;
+	  margin-top:auto;
+	  margin-bottom:auto;
     height:auto;
     max-height:1200px;
     padding:0px;
-   padding-top: 30px;
+   padding-top: 10px;
    padding-bottom:30px;
     max-width:600px;
 min-width:600px;
@@ -87,6 +89,8 @@ min-width:600px;
   .logo-wrapper {
 	  font-family: 'macarthur_yachtingregular';
 }
+
+  p {line-height:20px;}
   h1 {
     margin-bottom: 40px;
   }

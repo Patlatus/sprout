@@ -7,9 +7,9 @@
 <% end %>
 
 <div class="input-prepend"><span class="add-on"><i class="icon-envelope"></i></span>
-	<%= f.text_field :email, :placeholder => 'Your email address...', :style => "font-family: 'macarthur_yachtingregular'; margin:auto; max-width:80%;"%>
+	<%= f.text_field :email, :placeholder => 'Your email address...', :style => "margin:auto; max-width:80%;"%>
 </div>
-<%= f.submit "Notify Me", :class => "btn btn-primary", :id => 'invitation_button', :style => "font-family: 'macarthur_yachtingregular'; margin-top:3px;" %>
-<p class="help-block" style="margin-top:3px; line-height:10px;">No spam. Just a heads up when we're ready for you.</p>
+<%= f.submit "Notify Me", :class => "btn btn-primary", :id => 'invitation_button', :style => " margin-top:3px;" %>
+<p class="help-block" style="margin-top:3px; line-height:10px;">We will NOT send you any spam or sell you email.</p>
 
 <% end %>
