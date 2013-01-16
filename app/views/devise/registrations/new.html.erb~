@@ -80,7 +80,7 @@
 		    		 <input href="javascript:void(0)" onclick="NextSlide()" class="btn btn-primary" id="NextButton" style="" type="submit" value="Sounds interesting! Tell me more!">    
 </div>  <!-- /slide 1 -->
 <!-- SLIDE 2 -->
-            <div id="slide2" class="slide">
+            <div href="#specs" id="slide2" class="slide">
 		    <p style="text-weight:bold; text-align:center"><b><br/>We'll be launching with a beautiful barr&eacute; knit trouser</b></p> <p style="width:75%; margin:auto; text-align:justify; font-size:16px; margin-top:10px; margin-bottom:30px;">Cut to perfection with great attention to fit, our trouser features a high cut waist, tapered legs, and convenient sartorial details for a classic Italian look. <br/> <br/> Seemingly woven, our  93% Cotton / 7% Elastane barr&eacute; fabric is what truly sets our trousers apart from other classic models. Knit using a fiber that differs in diameter throughout its length, the result is unique, comfortable, and very elegant. <br/><br/>
 		    We guarantee that you'll never find an elegant Italian handmade men's trouser more comfortable than ours.  
 		    </p>          
@@ -89,7 +89,7 @@
             <!-- SLIDE 3 -->
 	    <div id="slide3" class="slide">
 		    <p style="text-weight:bold; text-align:center"><b><br/> In March</b></p>
-		    <p style="width:75%; margin:auto; text-align:center; font-size:16px; margin-top:10px; margin-bottom:30px;"><br/>A small run of our trousers will be available in store early March. We hope to be up and running online very shortly after. <br/><br/> We'll be sending out a general notice when our trousers hit stores in Rome, and another when our online store is open. To receive these notices please submit your email below. <br/></p>          
+		    <p style="width:75%; margin:auto; text-align:center; font-size:16px; margin-top:10px; margin-bottom:30px;"><br/>A small run of our trousers will be available in store early March. We hope to be up and running online very shortly after. <br/><br/> We'll be sending out a general notice when our trousers hit stores in Rome, and another when our online store is open. <br/><br/> In order to receive these notices please submit your email below. <br/></p>          
 
 	<div class="email_capture" style="margin-left:auto; margin-right:auto;">	
 		<div id="request-invite" class="form-inline">
