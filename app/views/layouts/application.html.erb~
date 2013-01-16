@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-   <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+   <meta name="viewport" content="width=650px; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
     <title><%= content_for?(:title) ? yield(:title) : "Miekka | Handmade in Italy" %></title>
     <meta name="description" content="<%= content_for?(:description) ? yield(:description) : "We confection our trousers one by one, step by step, 100% in-house at our design studio in Rome. It's a tedious process, but one that allows for an end result of true value: a pair of trousers like those from long ago, born from the heart and soul of an artisan." %>">
     <%= stylesheet_link_tag "application", :media => "all" %>
