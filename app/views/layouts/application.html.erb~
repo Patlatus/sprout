@@ -8,8 +8,9 @@
     <%= javascript_include_tag "application" %>
     <%= csrf_meta_tags %>
     <%= yield(:head) %>
-   
+  <meta name="p:domain_verify" content="728d12704a469f4ff66257dd75825fd1" /> 
   </head>
+ 
   <body class="<%= controller_name %> <%= action_name %>">
 <div id="fb-root"></div>
 
@@ -33,7 +34,14 @@
   })();
 
 </script>
-
+<header class="header">
+<div class="logo-wrapper" style="width:135px; height:80px; padding-top:10px; margin-bottom:10px; margin-right:auto; margin-left:auto;"><%= image_tag("logo.png", :border => 0) %></div>
+<div class="nav-wrapper" style="width:330px; height:19px; margin-right:auto; margin-left:auto;">
+	<p class="nav-single" style="width:110px; height:19px;">TTTTT</p>
+	<p class="nav-single" style="width:110px; height:19px;">TTTTT</p>
+	<p class="nav-single" style="width:110px; height:19px;">TTTTT</p>
+</div>
+          </header>
     <div id="main" role="main">
 	    <div class="container">
             <div class="span12" style="margin-left:0;">
