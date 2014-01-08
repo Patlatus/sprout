@@ -2,7 +2,7 @@
 $iconSpritePath: asset-url('glyphicons-halflings.png', image);
 $iconWhiteSpritePath: asset-url('glyphicons-halflings-white.png', image);
 @import "bootstrap";
-header { background-image:url('header.jpg');
+header { background-image:url('');
  background-color: #fff;
      background-repeat:no-repeat;
 height:128px;
@@ -28,7 +28,7 @@ body {
 }
 
 #main {
-background-image:url('BG-bottom.jpg');
+background-image:url('');
  background-color: #fff;
      background-repeat:no-repeat;
 height:640px;

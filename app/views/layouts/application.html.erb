@@ -2,8 +2,8 @@
 <html>
   <head>
    <meta name="viewport" content="width=1170px; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
-    <title><%= content_for?(:title) ? yield(:title) : "Miekka | Handmade in Italy" %></title>
-    <meta name="description" content="<%= content_for?(:description) ? yield(:description) : "We confection our trousers 100% in-house at our design studio in Rome. It's a tedious process, but one that allows for an end result of true value: a pair of trousers like those from long ago, born from the heart and soul of an artisan." %>">
+    <title><%= content_for?(:title) ? yield(:title) : "Sprout" %></title>
+    <meta name="description" content="<%= content_for?(:description) ? yield(:description) : "" %>">
     <%= stylesheet_link_tag "application", :media => "all" %>
     <%= javascript_include_tag "application" %>
     <%= csrf_meta_tags %>
@@ -35,11 +35,7 @@
 
 </script>
 <header class="header">
-<div class="logo-wrapper" style="width:135px; height:80px; padding-top:10px; margin-bottom:10px; margin-right:auto; margin-left:auto;"><%= image_tag("logo.png", :border => 0) %></div>
-<div class="nav-wrapper" style="width:330px; height:19px; margin-right:auto; margin-left:auto;">
-
-</div>
-          </header>
+</header>
     <div id="main" role="main">
 	    <div class="container">
             <div class="span12" style="margin-left:0;">
